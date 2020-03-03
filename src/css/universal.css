@@ -1,0 +1,197 @@
+@font-face {
+    font-family: futura;
+    src: url("font/futura.ttf") format("truetype");
+}
+
+body{
+    font-family: futura,serif;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    justify-content: center;
+    background: linear-gradient(lightcyan,white);
+}
+/*页面头的装饰*/
+header{
+    flex-basis: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-wrap: nowrap;
+    margin: 0;
+    font-size: 150%;
+}
+header>#home,header>#browse,header>#search{
+    flex-basis: 12%;
+    text-align: center;
+}
+header>#personalCenter{
+    flex-basis: 24%;
+    text-align: right;
+}
+header>#blank{
+    flex-basis: 40%;
+
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: red;
+}
+
+#dropdownMenu{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+.dropdownItem:hover{
+    color: red;
+}
+.hide{
+    display: none;
+}
+
+
+/*页面脚的样式*/
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-basis: 100%;
+}
+
+
+/*通用的卡片*/
+.card{
+    background-color: gainsboro;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.card-title{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: darkgrey;
+    padding: 8px;
+    text-align: center;
+    font-size: 120%;
+}
+.card-body{
+    text-align: center;
+}
+.card-body>div{
+    margin: 10px;
+}
+
+/*展示图片标题，介绍用的卡片*/
+.imageCard{
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: auto;
+}
+.imageCard img{
+    border-radius: 10px;
+    float: left;
+}
+.imageCard>.imageTitle{
+    font-size: 120%;
+    font-weight: bold;
+    margin: 0;
+}
+
+/*分页装饰*/
+.pagination{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.pagination>div{
+    border: 0.5px solid dodgerblue;
+    padding: 4px;
+}
+
+/*按钮的装饰*/
+.greenButton{
+    background-color: green;
+    color: white;
+}
+
+/*徽章装饰*/
+.badge{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 50%;
+    padding: 5px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    font-family: futura, serif;
+}
+
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+
+
+input[type=text],input[type=password],input[type=email]{
+    border-radius: 10px;
+}
+
+textarea{
+    border-radius: 10px;
+}
+

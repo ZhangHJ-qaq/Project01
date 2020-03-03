@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jsForDropdown.js"></script>
+    <script src="js/jsForSearchPage.js"></script>
+    <link rel="stylesheet" href="css/universal.css">
+    <link rel="stylesheet" href="css/search_myphoto_myfavor.css">
+</head>
+<body>
+<div class="container">
+    <header id="#header" style="position: relative">
+        <div id="home" class="headerOption"><a href="home.html">Home</a></div>
+        <div id="browse" class="headerOption"><a href="browser.html">Browse</a></div>
+        <div id="search" class="headerOption"><a href="search.html">Search</a></div>
+        <div id="blank"></div>
+        <div id="personalCenter" class="headerOption">
+            MyAccount
+            <div class="hide" id="dropdownMenu">
+                <div class="dropdownItem"><a href="upload.html"><span class="badge">上传</span>Upload</a></div>
+                <div class="dropdownItem"><a href="myPhoto.html"><span class="badge">我的照片</span>My photos</a></div>
+                <div class="dropdownItem"><a href="myfavor.html"><span class="badge">收藏</span>My favorites</a></div>
+                <div class="dropdownItem"><a href="../index.html"><span class="badge">登/注</span>Login/Register</a></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="card" id="searchOptionBox">
+            <div class="card-title">Search</div>
+            <div class="card-body">
+                <label>
+                    <input type="radio" name="howToFilter">
+                    Filter by Title
+                </label>
+                <input type="text">
+                <label>
+                    <input type="radio" name="howToFilter">
+                    Filter by Description
+                </label>
+                <input type="text">
+                <button class="btn-success btn" onclick="alert('呱！');">Filter</button>
+            </div>
+        </div>
+
+        <div class="card" id="searchResultBox">
+            <div class="card-title">
+                Results
+            </div>
+            <div class="card-body">
+                <div class="imageCard">
+                    <a href="imageDetail.html"><img src="../img/broswerImage/1.jpg"></a>
+                    <div class="imageTitle">Title</div>
+                    <div class="imageDescription">Description of the
+                        image全面建成小康社会，是“两个一百年”奋斗目标的第一个百年奋斗目标，是我们党向人民、向历史作出的庄严承诺，是近十四亿中国人民的共同期盼。实现这个宏伟目标，标志着我们向全面建成社会主义现代化强国迈出了至关重要的一步。现在到了一鼓作气、决战决胜的历史时刻，要坚定信心、攻坚克难，确保到二〇二〇年全面建成小康社会。
+                    </div>
+                </div>
+                <div class="imageCard">
+                    <a href="imageDetail.html"><img src="../img/broswerImage/2.jpg"></a>
+                    <div class="imageTitle">Title</div>
+                    <div class="imageDescription">Description of the
+                        image全面建成小康社会，是“两个一百年”奋斗目标的第一个百年奋斗目标，是我们党向人民、向历史作出的庄严承诺，是近十四亿中国人民的共同期盼。实现这个宏伟目标，标志着我们向全面建成社会主义现代化强国迈出了至关重要的一步。现在到了一鼓作气、决战决胜的历史时刻，要坚定信心、攻坚克难，确保到二〇二〇年全面建成小康社会。
+                    </div>
+                </div>
+                <div class="imageCard">
+                    <a href="imageDetail.html"><img src="../img/broswerImage/3.jpg"></a>
+                    <div class="imageTitle">Title</div>
+                    <div class="imageDescription">Description of the
+                        image全面建成小康社会，是“两个一百年”奋斗目标的第一个百年奋斗目标，是我们党向人民、向历史作出的庄严承诺，是近十四亿中国人民的共同期盼。实现这个宏伟目标，标志着我们向全面建成社会主义现代化强国迈出了至关重要的一步。现在到了一鼓作气、决战决胜的历史时刻，要坚定信心、攻坚克难，确保到二〇二〇年全面建成小康社会。
+                    </div>
+                </div>
+                <div class="imageCard">
+                    <a href="imageDetail.html"><img src="../img/broswerImage/4.jpg"></a>
+                    <div class="imageTitle">Title</div>
+                    <div class="imageDescription">Description of the
+                        image全面建成小康社会，是“两个一百年”奋斗目标的第一个百年奋斗目标，是我们党向人民、向历史作出的庄严承诺，是近十四亿中国人民的共同期盼。实现这个宏伟目标，标志着我们向全面建成社会主义现代化强国迈出了至关重要的一步。现在到了一鼓作气、决战决胜的历史时刻，要坚定信心、攻坚克难，确保到二〇二〇年全面建成小康社会。
+                    </div>
+                </div>
+                <div class="imageCard">
+                    <a href="imageDetail.html"><img src="../img/broswerImage/5.jpg"></a>
+                    <div class="imageTitle">Title</div>
+                    <div class="imageDescription">Description of the
+                        image全面建成小康社会，是“两个一百年”奋斗目标的第一个百年奋斗目标，是我们党向人民、向历史作出的庄严承诺，是近十四亿中国人民的共同期盼。实现这个宏伟目标，标志着我们向全面建成社会主义现代化强国迈出了至关重要的一步。现在到了一鼓作气、决战决胜的历史时刻，要坚定信心、攻坚克难，确保到二〇二〇年全面建成小康社会。
+                    </div>
+                </div>
+                <div class="imageCard">
+                    <a href="imageDetail.html"><img src="../img/broswerImage/6.jpg"></a>
+                    <div class="imageTitle">Title</div>
+                    <div class="imageDescription">Description of the
+                        image全面建成小康社会，是“两个一百年”奋斗目标的第一个百年奋斗目标，是我们党向人民、向历史作出的庄严承诺，是近十四亿中国人民的共同期盼。实现这个宏伟目标，标志着我们向全面建成社会主义现代化强国迈出了至关重要的一步。现在到了一鼓作气、决战决胜的历史时刻，要坚定信心、攻坚克难，确保到二〇二〇年全面建成小康社会。
+                    </div>
+                </div>
+                <div class="pagination">
+                    <div><<</div>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>>></div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        Created By Zhang H.J No.19302010021
+    </footer>
+</div>
+
+</body>
+</html>

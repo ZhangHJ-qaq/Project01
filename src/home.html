@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jsForDropdown.js"></script>
+    <script src="js/adjustAllImages.js"></script>
+    <link rel="stylesheet" href="css/homePageCss.css">
+    <link rel="stylesheet" href="css/universal.css">
+</head>
+<body>
+<div class="container">
+    <!--    页面的头部-->
+    <header id="#header" style="position: relative">
+        <div id="home" class="headerOption"><a href="home.html">Home</a></div>
+        <div id="browse" class="headerOption"><a href="browser.html">Browse</a></div>
+        <div id="search" class="headerOption"><a href="search.html">Search</a></div>
+        <div id="blank"></div>
+        <div id="personalCenter" class="headerOption">
+            MyAccount
+            <div class="hide" id="dropdownMenu">
+                <div class="dropdownItem"><a href="upload.html"><span class="badge">上传</span>Upload</a></div>
+                <div class="dropdownItem"><a href="myPhoto.html"><span class="badge">我的照片</span>My photos</a></div>
+                <div class="dropdownItem"><a href="myfavor.html"><span class="badge">收藏</span>My favorites</a></div>
+                <div class="dropdownItem"><a href="../index.html"><span class="badge">登/注</span>Login/Register</a></div>
+            </div>
+        </div>
+    </header>
+
+
+    <main id="homePage">
+        <img src="../img/homePageImage.jpg" alt="homepage Image">
+        <div id="homepageImageDisplay">
+            <div class="imageCard ">
+                <a href="imageDetail.html"><img src="../img/homepageImagesShow/1.jpg" class="display"></a>
+                <div class="imageTitle">Title</div>
+                <div class="imageDescription ">This is my first photograph.Thanks for your watching</div>
+            </div>
+
+            <div class="imageCard ">
+                <a href="imageDetail.html"><img src="../img/homepageImagesShow/2.jpg" class="display"></a>
+                <div class="imageTitle">Title</div>
+                <div class="imageDescription ">This is my first photograph.Thanks for your watching</div>
+            </div>
+            <div class="imageCard ">
+                <a href="imageDetail.html"><img src="../img/homepageImagesShow/3.jpg" class="display"></a>
+                <div class="imageTitle">Title</div>
+                <div class="imageDescription ">This is my first photograph.Thanks for your watching</div>
+            </div>
+            <div class="imageCard ">
+                <a href="imageDetail.html"><img src="../img/homepageImagesShow/4.jpg" class="display"></a>
+                <div class="imageTitle">Title</div>
+                <div class="imageDescription ">This is my first photograph.Thanks for your watching</div>
+            </div>
+            <div class="imageCard ">
+                <a href="imageDetail.html"><img src="../img/homepageImagesShow/5.jpg" class="display"></a>
+                <div class="imageTitle">Title</div>
+                <div class="imageDescription ">This is my first photograph.Thanks for your watching</div>
+            </div>
+            <div class="imageCard ">
+                <a href="imageDetail.html"><img src="../img/homepageImagesShow/6.jpg" class="display"></a>
+                <div class="imageTitle">Title</div>
+                <div class="imageDescription ">This is my first photograph.Thanks for your watching</div>
+
+            </div>
+        </div>
+
+        <div style="position: fixed;bottom: 20px;right: 10px;text-align: center">
+            <a id="refresh" class="btn btn-success" onclick="alert('呱！')">刷新页面</a>
+            <br>
+            <a id="backToTop"  class="btn btn-warning" href="##header">回到顶部</a>
+        </div>
+
+    </main>
+
+
+    <!--    页面的尾部-->
+    <footer>
+        Created By Zhang H.J No.19302010021
+    </footer>
+</div>
+
+</body>
+</html>

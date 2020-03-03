@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 80%;
+}
+main>img{
+    flex-basis: 100%;
+}
+#homepageImageDisplay{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+#home{
+    text-decoration: underline;
+}

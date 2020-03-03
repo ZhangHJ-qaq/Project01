@@ -1,0 +1,43 @@
+#browse{
+    text-decoration: underline;
+}
+
+
+nav {
+    flex-basis: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    justify-content: center;
+}
+ main {
+    flex-basis: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px){
+    nav{
+        display: none;
+    }
+    main{
+        flex-basis: 100%;
+    }
+}
+
+nav > * {
+    flex-basis: 50%;
+
+}
+
+#imgBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#imgBox a {
+    flex-basis: 20%;
+    margin: 1%;
+}
+

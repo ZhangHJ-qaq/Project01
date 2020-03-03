@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>myPhotos</title>
+    <link rel="stylesheet" href="css/universal.css">
+    <link rel="stylesheet" href="css/search_myphoto_myfavor.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jsForDropdown.js"></script>
+    <script src="js/adjustAllImages.js"></script>
+</head>
+<body>
+<div class="container">
+    <header id="#header" style="position: relative">
+        <div id="home" class="headerOption"><a href="home.html">Home</a></div>
+        <div id="browse" class="headerOption"><a href="browser.html">Browse</a></div>
+        <div id="search" class="headerOption"><a href="search.html">Search</a></div>
+        <div id="blank"></div>
+        <div id="personalCenter" class="headerOption">
+            MyAccount
+            <div class="hide" id="dropdownMenu">
+                <div class="dropdownItem"><a href="upload.html"><span class="badge">上传</span>Upload</a></div>
+                <div class="dropdownItem"><a href="myPhoto.html"><span class="badge">我的照片</span>My photos</a></div>
+                <div class="dropdownItem"><a href="myfavor.html"><span class="badge">收藏</span>My favorites</a></div>
+                <div class="dropdownItem"><a href="../index.html"><span class="badge">登/注</span>Login/Register</a></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="card">
+        <div class="card-title">My photos</div>
+        <div class="card-body">
+            <div class="imageCard">
+                <a href="imageDetail.html"><img src="../img/myphotos/1.jpg" class="display"></a>
+                <div class="imageTitle">Title</div>
+                <div class="imageDescription">Description of image</div>
+                <button class="btn btn-success" onclick="alert('呱！')">Modify</button>
+                <button class="btn btn-warning" onclick="alert('呱！')">Delete</button>
+            </div>
+            <div class="imageCard">
+                <a href="imageDetail.html"><img src="../img/myphotos/2.jpg" class="display"></a>
+                <div class="imageTitle">Title</div>
+                <div class="imageDescription">Description of image</div>
+                <button class="btn btn-success" onclick="alert('呱！')">Modify</button>
+                <button class="btn btn-warning" onclick="alert('呱！')">Delete</button>
+            </div>
+            <div class="imageCard">
+                <a href="imageDetail.html"><img src="../img/myphotos/3.jpg" class="display"></a>
+                <div class="imageTitle">Title</div>
+                <div class="imageDescription">Description of image</div>
+                <button class="btn btn-success" onclick="alert('呱！')">Modify</button>
+                <button class="btn btn-warning" onclick="alert('呱！')">Delete</button>
+            </div>
+            <div class="imageCard">
+                <a href="imageDetail.html"><img src="../img/myphotos/4.jpg" class="display"></a>
+                <div class="imageTitle">Title</div>
+                <div class="imageDescription">Description of image</div>
+                <button class="btn btn-success" onclick="alert('呱！')">Modify</button>
+                <button class="btn btn-warning" onclick="alert('呱！')">Delete</button>
+            </div>
+            <div class="pagination">
+                <div><<</div>
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>>></div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        Created By Zhang H.J No.19302010021
+    </footer>
+
+</div>
+
+</body>
+</html>
