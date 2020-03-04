@@ -19,6 +19,7 @@
         <div id="blank"></div>
         <div id="personalCenter" class="headerOption">
             MyAccount
+<!--            下拉菜单-->
             <div class="hide" id="dropdownMenu">
                 <div class="dropdownItem"><a href="upload.html"><span class="badge">上传</span>Upload</a></div>
                 <div class="dropdownItem"><a href="myPhoto.html"><span class="badge">我的照片</span>My photos</a></div>
@@ -28,44 +29,49 @@
         </div>
     </header>
 
-
+<!--    页面的主要部分-->
     <main id="homePage">
-        <img src="../img/homepage/homePageBigImage.jpg" alt="homepage Image">
+<!--        超大图片展示-->
+        <img src="../img/homePageImage.jpg" alt="homepage Image">
+
+<!--        主页展示几张缩略照片的容器-->
         <div id="homepageImageDisplay">
             <div class="imageCard ">
-                <a href="imageDetail.html"><img src="../img/homepage/1.jpg" class="display"></a>
+                <a href="imageDetail.html"><img src="../img/homepageImagesShow/1.jpg" class="display"></a>
                 <div class="imageTitle">Title</div>
                 <div class="imageDescription ">This is my first photograph.Thanks for your watching</div>
             </div>
 
             <div class="imageCard ">
-                <a href="imageDetail.html"><img src="../img/homepage/2.jpg" class="display"></a>
+                <a href="imageDetail.html"><img src="../img/homepageImagesShow/2.jpg" class="display"></a>
                 <div class="imageTitle">Title</div>
                 <div class="imageDescription ">This is my first photograph.Thanks for your watching</div>
             </div>
             <div class="imageCard ">
-                <a href="imageDetail.html"><img src="../img/homepage/3.jpg" class="display"></a>
+                <a href="imageDetail.html"><img src="../img/homepageImagesShow/3.jpg" class="display"></a>
                 <div class="imageTitle">Title</div>
                 <div class="imageDescription ">This is my first photograph.Thanks for your watching</div>
             </div>
             <div class="imageCard ">
-                <a href="imageDetail.html"><img src="../img/homepage/4.jpg" class="display"></a>
+                <a href="imageDetail.html"><img src="../img/homepageImagesShow/4.jpg" class="display"></a>
                 <div class="imageTitle">Title</div>
                 <div class="imageDescription ">This is my first photograph.Thanks for your watching</div>
             </div>
             <div class="imageCard ">
-                <a href="imageDetail.html"><img src="../img/homepage/5.jpg" class="display"></a>
+                <a href="imageDetail.html"><img src="../img/homepageImagesShow/5.jpg" class="display"></a>
                 <div class="imageTitle">Title</div>
                 <div class="imageDescription ">This is my first photograph.Thanks for your watching</div>
             </div>
             <div class="imageCard ">
-                <a href="imageDetail.html"><img src="../img/homepage/6.jpg" class="display"></a>
+                <a href="imageDetail.html"><img src="../img/homepageImagesShow/6.jpg" class="display"></a>
                 <div class="imageTitle">Title</div>
                 <div class="imageDescription ">This is my first photograph.Thanks for your watching</div>
 
             </div>
         </div>
 
+
+<!--        右下角的两个悬浮按钮-->
         <div style="position: fixed;bottom: 20px;right: 10px;text-align: center">
             <a id="refresh" class="btn btn-success" onclick="alert('呱！')">刷新页面</a>
             <br>

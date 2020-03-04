@@ -1,4 +1,5 @@
 $(function () {
+    // 搜索选项二级联动
     let China = ['Shanghai', 'Kunming', 'Beijing', 'Yantai'];
     let Japan = ['Tokyo', 'Osaka', 'Kamakura'];
     let Italy = ['Roma', 'Milan', 'Venice', 'Florence'];

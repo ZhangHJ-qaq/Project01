@@ -1,7 +1,9 @@
+/*是所有页面都使用的通用css样式*/
+
 @font-face {
     font-family: futura;
     src: url("font/futura.ttf") format("truetype");
-}
+}/*引入字体*/
 
 body{
     font-family: futura,serif;
@@ -17,7 +19,9 @@ body{
     bottom: 0;
     justify-content: center;
     background: linear-gradient(lightcyan,white);
-}
+}/*容器类，使用flex布局*/
+
+
 /*页面头的装饰*/
 header{
     flex-basis: 100%;
@@ -49,6 +53,7 @@ header a:hover{
     color: red;
 }
 
+/*下拉菜单的样式*/
 #dropdownMenu{
     background-color: black;
     color: white;
@@ -73,13 +78,15 @@ footer{
 }
 
 
-/*通用的卡片*/
+/*通用的卡片，装饰类*/
 .card{
     background-color: gainsboro;
     border-radius: 10px;
     margin: 10px;
     text-align: center;
 }
+
+/*卡片装饰类的标题*/
 .card-title{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -88,6 +95,8 @@ footer{
     text-align: center;
     font-size: 120%;
 }
+
+/*卡片装饰类的主体*/
 .card-body{
     text-align: center;
 }
@@ -139,6 +148,8 @@ footer{
     padding: 5px;
 }
 
+
+/*按钮的装饰类*/
 .btn {
     display: inline-block;
     font-weight: 400;
@@ -186,7 +197,7 @@ footer{
 }
 
 
-
+/*设置输入框的圆角样式*/
 input[type=text],input[type=password],input[type=email]{
     border-radius: 10px;
 }

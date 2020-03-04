@@ -1,5 +1,6 @@
 window.onload = function () {
-    let images = document.querySelectorAll(".display");
+    //调整图片版式，使之满足150*150
+    let images = document.querySelectorAll(".display");//给图片加上display类，就可以自动将图片调整成150*150版式
     for (let i = 0; i <= images.length - 1; i++) {
         let url = images[i].src;
         let width = images[i].width;

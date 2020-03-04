@@ -1,4 +1,5 @@
 $(function () {
+    // 上传图片，并调整图片使之成为150*150（通过加border）
     $("#fileUploadBtn").change(function(e) {
         var imgBox = e.target;
         uploadImg($('#imgBox'), imgBox)
@@ -21,7 +22,7 @@ $(function () {
             $(img).attr("src", imgSrc);
             element.append(img);
             img.onload=function () {
-                imageAdjust(img);
+                imageAdjust(img);//调整被上传图片的版式
             }
 
         };

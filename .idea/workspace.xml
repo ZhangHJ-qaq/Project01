@@ -2,32 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b060a843-c6b1-438e-9bc6-58ec56afacb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/img/broswerImage/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/browserImage/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/broswerImage/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/browserImage/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/broswerImage/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/browserImage/11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/broswerImage/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/browserImage/12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/broswerImage/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/browserImage/13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/broswerImage/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/browserImage/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/broswerImage/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/browserImage/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/broswerImage/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/browserImage/16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/broswerImage/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/browserImage/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/broswerImage/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/browserImage/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/broswerImage/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/browserImage/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/broswerImage/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/browserImage/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/broswerImage/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/browserImage/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/broswerImage/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/browserImage/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/broswerImage/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/browserImage/8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/broswerImage/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/browserImage/9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/homePageImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/homepage/homePageBigImage.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/homepageImagesShow/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/homepage/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/homepageImagesShow/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/homepage/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/homepageImagesShow/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/homepage/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/homepageImagesShow/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/homepage/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/homepageImagesShow/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/homepage/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/homepageImagesShow/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/homepage/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/browser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/browser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/browserCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/browserCss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/homePageCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/homePageCss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/login_reigister_Css.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/login_reigister_Css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/search_myphoto_myfavor.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/search_myphoto_myfavor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/universal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/universal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/uploadCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/uploadCss.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imageDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/imageDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/adjustAllImages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/adjustAllImages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/jsForBrowsePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/jsForBrowsePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/jsForDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/jsForDropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/jsForPhotoUpload.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/jsForPhotoUpload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/jsForSearchPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/jsForSearchPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myfavor.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/myfavor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/upload.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +50,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -77,7 +71,7 @@
     <configuration default="true" type="JavascriptDebugType" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/Project1/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="home.html" type="JavascriptDebugType" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/Project1/src/home.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/Project01/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
   </component>
@@ -113,6 +107,8 @@
       <workItem from="1583215761334" duration="13266000" />
       <workItem from="1583229255142" duration="828000" />
       <workItem from="1583230603759" duration="65000" />
+      <workItem from="1583331987524" duration="69000" />
+      <workItem from="1583332084672" duration="16000" />
     </task>
     <servers />
   </component>
@@ -120,10 +116,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="7" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583071960164">
+    <state x="0" y="7" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583332099777">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="0" y="7" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1583071960164" />
+    <state x="0" y="7" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1583332099777" />
     <state x="384" y="154" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583229810800">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -132,10 +128,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="95" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1583226135820" />
-    <state x="325" y="93" key="FileChooserDialogImpl" timestamp="1583071959329">
+    <state x="325" y="93" key="FileChooserDialogImpl" timestamp="1583332098210">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="325" y="93" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1583071959329" />
+    <state x="325" y="93" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1583332098210" />
     <state width="898" height="125" key="GridCell.Tab.0.bottom" timestamp="1583229047692">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

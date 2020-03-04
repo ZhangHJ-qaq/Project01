@@ -1,3 +1,5 @@
+/*搜索，我的照片，我的收藏三个页面的通用样式*/
+
 main{
     flex-basis: 100%;
 }
@@ -5,6 +7,8 @@ main{
     text-decoration: underline;
 }
 
+
+/*响应式布局，保证浏览器窗口缩小时搜索选项的框内内容显示正常*/
 @media screen and (max-width: 768px){
     #searchOptionBox>.card-body{
         display: flex;
