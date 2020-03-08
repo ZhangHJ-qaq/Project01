@@ -6,6 +6,7 @@
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/jsForDropdown.js"></script>
     <script src="js/jsForBrowsePage.js"></script>
+    <script src="js/adjustAllImages.js"></script>
     <link rel="stylesheet" href="css/universal.css">
     <link rel="stylesheet" href="css/browserCss.css">
 </head>
@@ -26,103 +27,103 @@
             </div>
         </div>
     </header>
-        <nav>
-            <div class="card">
-                <div class="card-title">
-                    Search by Title
-                </div>
-                <div class="card-body">
-                    <input type="text">
-                    <button class="btn btn-success" onclick="alert('呱！')">搜索</button>
-                </div>
-
+    <nav>
+        <div class="card">
+            <div class="card-title">
+                Search by Title
+            </div>
+            <div class="card-body">
+                <input type="text">
+                <button class="btn btn-success" onclick="alert('呱！')">搜索</button>
             </div>
 
-            <div class="card">
-                <div class="card-title">
-                    Hot Content
+        </div>
+
+        <div class="card">
+            <div class="card-title">
+                Hot Content
+            </div>
+            <div class="card-body">
+                <div onclick="alert('呱！')">Scenery</div>
+                <div onclick="alert('呱！')">City</div>
+                <div onclick="alert('呱！')">People</div>
+                <div onclick="alert('呱！')">Animal</div>
+                <div onclick="alert('呱！')">Building</div>
+                <div onclick="alert('呱！')">Wonder</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">
+                Hot country
+            </div>
+            <div class="card-body">
+                <div onclick="alert('呱！')">China</div>
+                <div onclick="alert('呱！')">Italy</div>
+                <div onclick="alert('呱！')">Japan</div>
+                <div onclick="alert('呱！')">America</div>
+            </div>
+        </div>
+
+    </nav>
+    <main>
+        <div class="card">
+            <div class="card-title">Filter</div>
+            <div class="card-body">
+                <div>
+                    <select>
+                        <option>Filter By content</option>
+                        <option>Scenery</option>
+                        <option>City</option>
+                        <option>People</option>
+                        <option>Animal</option>
+                        <option>Building</option>
+                        <option>Wonder</option>
+                    </select>
+                    <select id="countryFilter">
+                        <option value="0">Filter by Country</option>
+                        <option value="1">China</option>
+                        <option value="2">Italy</option>
+                        <option value="3">Japan</option>
+                        <option value="4">America</option>
+                    </select>
+                    <select id="cityFilter">
+                        <option>Filter by Cites</option>
+                    </select>
+                    <button id="filterButton" class="btn-success btn" onclick="alert('呱！')">
+                        Filter
+                    </button>
                 </div>
-                <div class="card-body">
-                    <div onclick="alert('呱！')">Scenery</div>
-                    <div onclick="alert('呱！')">City</div>
-                    <div onclick="alert('呱！')">People</div>
-                    <div onclick="alert('呱！')">Animal</div>
-                    <div onclick="alert('呱！')">Building</div>
-                    <div onclick="alert('呱！')">Wonder</div>
+                <div id="imgBox">
+                    <a href="imageDetail.html"><img src="../img/img_small/1.jpg" class="display"></a>
+                    <a href="imageDetail.html"><img src="../img/img_small/2.jpg" class="display"></a>
+                    <a href="imageDetail.html"><img src="../img/img_small/3.jpg" class="display"></a>
+                    <a href="imageDetail.html"><img src="../img/img_small/4.jpg" class="display"></a>
+                    <a href="imageDetail.html"><img src="../img/img_small/5.jpg" class="display"></a>
+                    <a href="imageDetail.html"><img src="../img/img_small/6.jpg" class="display"></a>
+                    <a href="imageDetail.html"><img src="../img/img_small/7.jpg" class="display"></a>
+                    <a href="imageDetail.html"><img src="../img/img_small/8.jpg" class="display"></a>
+                    <a href="imageDetail.html"><img src="../img/img_small/9.jpg" class="display"></a>
+                    <a href="imageDetail.html"><img src="../img/img_small/10.jpg" class="display"></a>
+                    <a href="imageDetail.html"><img src="../img/img_small/11.jpg" class="display"></a>
+                    <a href="imageDetail.html"><img src="../img/img_small/12.jpg" class="display"></a>
+                    <a href="imageDetail.html"><img src="../img/img_small/13.jpg" class="display"></a>
+                    <a href="imageDetail.html"><img src="../img/img_small/14.jpg" class="display"></a>
+                    <a href="imageDetail.html"><img src="../img/img_small/15.jpg" class="display"></a>
+                    <a href="imageDetail.html"><img src="../img/img_small/16.jpg" class="display"></a>
+
+
+                </div>
+                <div class="pagination">
+                    <div><<</div>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>>></div>
                 </div>
             </div>
-
-            <div class="card">
-                <div class="card-title">
-                    Hot country
-                </div>
-                <div class="card-body">
-                    <div onclick="alert('呱！')">China</div>
-                    <div onclick="alert('呱！')">Italy</div>
-                    <div onclick="alert('呱！')">Japan</div>
-                    <div onclick="alert('呱！')">America</div>
-                </div>
-            </div>
-
-        </nav>
-        <main>
-            <div class="card">
-                <div class="card-title">Filter</div>
-                <div class="card-body">
-                    <div>
-                        <select>
-                            <option>Filter By content</option>
-                            <option>Scenery</option>
-                            <option>City</option>
-                            <option>People</option>
-                            <option>Animal</option>
-                            <option>Building</option>
-                            <option>Wonder</option>
-                        </select>
-                        <select id="countryFilter">
-                            <option value="0">Filter by Country</option>
-                            <option value="1">China</option>
-                            <option value="2">Italy</option>
-                            <option value="3">Japan</option>
-                            <option value="4">America</option>
-                        </select>
-                        <select id="cityFilter">
-                            <option>Filter by Cites</option>
-                        </select>
-                        <button id="filterButton" class="btn-success btn" onclick="alert('呱！')">
-                            Filter
-                        </button>
-                    </div>
-                    <div id="imgBox">
-                        <a href="imageDetail.html"><img src="../img/broswerImage/1.jpg"></a>
-                        <a href="imageDetail.html"><img src="../img/broswerImage/2.jpg"></a>
-                        <a href="imageDetail.html"><img src="../img/broswerImage/3.jpg"></a>
-                        <a href="imageDetail.html"><img src="../img/broswerImage/4.jpg"></a>
-                        <a href="imageDetail.html"><img src="../img/broswerImage/5.jpg"></a>
-                        <a href="imageDetail.html"><img src="../img/broswerImage/6.jpg"></a>
-                        <a href="imageDetail.html"><img src="../img/broswerImage/7.jpg"></a>
-                        <a href="imageDetail.html"><img src="../img/broswerImage/8.jpg"></a>
-                        <a href="imageDetail.html"><img src="../img/broswerImage/9.jpg"></a>
-                        <a href="imageDetail.html"><img src="../img/broswerImage/10.jpg"></a>
-                        <a href="imageDetail.html"><img src="../img/broswerImage/11.jpg"></a>
-                        <a href="imageDetail.html"><img src="../img/broswerImage/12.jpg"></a>
-                        <a href="imageDetail.html"><img src="../img/broswerImage/13.jpg"></a>
-                        <a href="imageDetail.html"><img src="../img/broswerImage/14.jpg"></a>
-                        <a href="imageDetail.html"><img src="../img/broswerImage/15.jpg"></a>
-                        <a href="imageDetail.html"><img src="../img/broswerImage/16.jpg"></a>
-
-
-                    </div>
-                    <div class="pagination">
-                        <div><<</div>
-                        <div>1</div>
-                        <div>2</div>
-                        <div>3</div>
-                        <div>>></div>
-                    </div>
-                </div>
-            </div>
-        </main>
+        </div>
+    </main>
     <footer>
         Created By Zhang H.J No.19302010021
     </footer>

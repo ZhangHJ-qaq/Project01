@@ -9,14 +9,13 @@ $(function () {
         let file = tag.files[0];
         let imgSrc;
         if (!/image\/\w+/.test(file.type)) {
-            alert("看清楚，这个需要图片！");
+            alert("你上传的好像不是图片");
             return false;
         }
         let reader = new FileReader();
         reader.readAsDataURL(file);
         reader.onload = function() {
             element.empty();
-            console.log(this.result);
             imgSrc = this.result;
             let img = document.createElement("img");
             $(img).attr("src", imgSrc);
