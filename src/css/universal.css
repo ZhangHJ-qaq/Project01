@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: futura;
-    src: url("font/futura.ttf") format("truetype");
+    src: url("font/futura_lt_bt_light-webfont.woff.ttf") format("truetype");
 }/*引入字体*/
 
 body{

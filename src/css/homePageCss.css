@@ -19,3 +19,13 @@ main>img{
 #home{
     text-decoration: underline;
 }
+footer{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+footer>div{
+    flex-basis: 70%;
+}
+
