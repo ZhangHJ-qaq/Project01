@@ -1,32 +1,32 @@
 window.onload = function () {
-    //调整图片版式，使之满足150*150
-    let images = document.querySelectorAll(".display");//给图片加上display类，就可以自动将图片调整成150*150版式
-    for (let i = 0; i <= images.length - 1; i++) {
-        let url = images[i].src;
-        let width = images[i].width;
-        let height = images[i].height;//现在我们得到了图片原始的长宽
-        images[i].style.borderColor = "rgba(255,255,255,1)";
-        if (width < height) {
-            //此时，宽度小于高度，原来的图片是“瘦的”
-            let k = 150 / height;//此时高度应该撑满，定义一个比例系数k
-            images[i].style.borderStyle = "solid";
-            images[i].style.width = width * k + "px";
-            images[i].style.height = height * k + "px";
-            images[i].style.borderRightWidth = (height - width) / 2 * k + "px";
-            images[i].style.borderLeftWidth = (height - width) / 2 * k + "px";//在“瘦的”图片两侧加上border
-        } else if (width === height) {
-            images[i].style.width = 150 + "px";
-            images[i].style.height = 150 + "px";
-        } else if (width > height) {//此时图片是“胖的”，思路和处理“瘦的”图片类似,在上下补充border
-            let k = 150 / width;
-            images[i].style.borderStyle = "solid";
-            images[i].style.width = width * k + "px";
-            images[i].style.height = height * k + "px";
-            images[i].style.borderTopWidth = (width - height) / 2 * k + "px";
-            images[i].style.borderBottomWidth = (width - height) / 2 * k + "px"
+    let images = jQuery(".display");
+    images.each(function () {
+        let width = this.width;
+        let height = this.height;
+        let k = null;//k是比例系数
+        if (width < height) {//此时，图片是“瘦的”
+            k = 150 / height;
+            jQuery(this).css({
+                "width":width*k+"px",
+                "height":height*k+"px",
+                "border-left-width":(height-width)/2*k+"px",
+                "border-right-width":(height-width)/2*k+"px",
+                "border-style":"solid",
+                "border-color":"white"
+            })
         }
+        else {
+            k = 150 / width;
+            jQuery(this).css({
+                "width":width*k+"px",
+                "height":height*k+"px",
+                "border-bottom-width":(width-height)/2*k+"px",
+                "border-top-width":(width-height)/2*k+"px",
+                "border-style":"solid",
+                "border-color":"white"
+            })
+        }
+    })
 
-
-    }
 };
 
