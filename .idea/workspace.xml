@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b060a843-c6b1-438e-9bc6-58ec56afacb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Project1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/browser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/browser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/search_myphoto_myfavor.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/search_myphoto_myfavor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/universal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/universal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/imageDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/imageDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/adjustAllImages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/adjustAllImages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/jquery-3.4.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/jsForPhotoUpload.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/jsForPhotoUpload.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/myPhoto.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/myPhoto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/myfavor.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/myfavor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/search.html" afterDir="false" />
@@ -120,6 +114,9 @@
       <workItem from="1583850596536" duration="2335000" />
       <workItem from="1583938940704" duration="285000" />
       <workItem from="1583939237518" duration="2145000" />
+      <workItem from="1584114171832" duration="149000" />
+      <workItem from="1584255402929" duration="1270000" />
+      <workItem from="1584265129872" duration="655000" />
     </task>
     <servers />
   </component>
@@ -139,10 +136,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="95" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1583939003552" />
-    <state x="325" y="93" key="FileChooserDialogImpl" timestamp="1583939240817">
+    <state x="325" y="93" key="FileChooserDialogImpl" timestamp="1584114317526">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="325" y="93" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1583939240817" />
+    <state x="325" y="93" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1584114317526" />
     <state width="1259" height="3" key="GridCell.Tab.0.bottom" timestamp="1583941385341">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

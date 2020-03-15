@@ -18,7 +18,7 @@ body{
     left: 0;
     bottom: 0;
     justify-content: center;
-    background: linear-gradient(lightcyan,white);
+    background: white;
 }/*容器类，使用flex布局*/
 
 
@@ -61,6 +61,7 @@ header a:hover{
     right: 0;
     text-align: center;
 }
+
 .dropdownItem:hover{
     color: red;
 }
@@ -77,20 +78,26 @@ footer{
     flex-basis: 100%;
 }
 
+.icon{
+    width: 25px;
+    height: 25px;
+}
+
 
 /*通用的卡片，装饰类*/
 .card{
-    background-color: gainsboro;
+    background-color: white;
     border-radius: 10px;
     margin: 10px;
     text-align: center;
+    border:solid gainsboro;
 }
 
 /*卡片装饰类的标题*/
 .card-title{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: darkgrey;
+    background-image: linear-gradient(gainsboro,white);
     padding: 8px;
     text-align: center;
     font-size: 120%;
@@ -107,10 +114,11 @@ footer{
 /*展示图片标题，介绍用的卡片*/
 .imageCard{
     padding: 5px;
-    background-color: lightgray;
+    background-color:white;
     border-radius: 10px;
     margin: 10px;
     overflow: auto;
+    border: solid gainsboro;
 }
 .imageCard img{
     border-radius: 10px;
@@ -133,11 +141,7 @@ footer{
     padding: 4px;
 }
 
-/*按钮的装饰*/
-.greenButton{
-    background-color: green;
-    color: white;
-}
+
 
 /*徽章装饰*/
 .badge{
@@ -200,6 +204,7 @@ footer{
 /*设置输入框的圆角样式*/
 input[type=text],input[type=password],input[type=email]{
     border-radius: 10px;
+    height: 30px;
 }
 
 textarea{
