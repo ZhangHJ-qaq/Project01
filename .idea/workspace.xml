@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b060a843-c6b1-438e-9bc6-58ec56afacb5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/browser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/browser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imageDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/imageDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myPhoto.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/myPhoto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myfavor.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/myfavor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/upload.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +122,7 @@
       <workItem from="1584804605117" duration="2939000" />
       <workItem from="1584893645721" duration="39000" />
       <workItem from="1584940786562" duration="224000" />
+      <workItem from="1584941231246" duration="64000" />
     </task>
     <servers />
   </component>
