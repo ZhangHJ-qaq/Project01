@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b060a843-c6b1-438e-9bc6-58ec56afacb5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jQuery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jQuery.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/browser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/browser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/universal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/universal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imageDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/imageDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/jquery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/jsForDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/jsForDropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myPhoto.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/myPhoto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myfavor.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/myfavor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/upload.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js/jquery-3.4.1.min.js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -123,6 +134,9 @@
       <workItem from="1584893645721" duration="39000" />
       <workItem from="1584940786562" duration="224000" />
       <workItem from="1584941231246" duration="64000" />
+      <workItem from="1584962928531" duration="986000" />
+      <workItem from="1585141076616" duration="264000" />
+      <workItem from="1585141445667" duration="130000" />
     </task>
     <servers />
   </component>
@@ -146,10 +160,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="403" height="466" key="DebuggerActiveHint/0.0.1280.689@0.0.1280.689" timestamp="1584807523717" />
-    <state x="325" y="93" key="FileChooserDialogImpl" timestamp="1584893678552">
+    <state x="325" y="93" key="FileChooserDialogImpl" timestamp="1585141543905">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="325" y="93" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1584893678552" />
+    <state x="325" y="93" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1585141543905" />
     <state width="629" height="90" key="GridCell.Tab.0.bottom" timestamp="1584807546122">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -198,10 +212,14 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="629" height="90" key="GridCell.Tab.2.right/0.0.1280.689@0.0.1280.689" timestamp="1584807546122" />
-    <state x="144" y="0" key="SettingsEditor" timestamp="1584804691326">
+    <state x="144" y="0" key="SettingsEditor" timestamp="1585141547845">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="144" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1584804691326" />
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1585141547845" />
+    <state x="337" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1585141445412">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="337" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1585141445412" />
     <state x="469" y="183" width="672" height="678" key="search.everywhere.popup" timestamp="1583218823059">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

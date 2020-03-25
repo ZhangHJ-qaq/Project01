@@ -1,11 +1,12 @@
 $(function () {
-
+    $("#dropdownMenu").hide();
     // 实现下拉菜单的js代码
     $("#personalCenter").on("mouseover", function () {
-        $("#dropdownMenu").removeClass("hide");
+        $("#dropdownMenu").slideDown("fast")
+        // $("#dropdownMenu").removeClass("hide");
     })
         .on("mouseleave", function () {
-            $("#dropdownMenu").addClass("hide");
+            $("#dropdownMenu").slideUp("fast")
 
         })
 
