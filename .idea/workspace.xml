@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b060a843-c6b1-438e-9bc6-58ec56afacb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jQuery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jQuery.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Project1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jQuery.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/browser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/browser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/universal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/universal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imageDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/imageDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/jquery-2.1.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/jsForDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/jsForDropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myPhoto.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/myPhoto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myfavor.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/myfavor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/jsForPhotoUpload.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/jsForPhotoUpload.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js/jquery-3.4.1.min.js" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/jquery-3.4.1.js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,6 +57,9 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zhang H.J\Documents\MyRepositories\Project01\src\js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Zhang H.J\Documents\MyRepositories\Project01\src\js" />
       <recent name="C:\Users\Zhang H.J\Documents\MyRepositories\Project01\img\img_small" />
@@ -137,6 +131,10 @@
       <workItem from="1584962928531" duration="986000" />
       <workItem from="1585141076616" duration="264000" />
       <workItem from="1585141445667" duration="130000" />
+      <workItem from="1585142373798" duration="42000" />
+      <workItem from="1585221493676" duration="19000" />
+      <workItem from="1585242935636" duration="14000" />
+      <workItem from="1585295293757" duration="637000" />
     </task>
     <servers />
   </component>
@@ -144,10 +142,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="7" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584804878131">
+    <state x="0" y="6" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585295307581">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="0" y="7" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1584804878131" />
+    <state x="0" y="6" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1585295307581" />
     <state x="384" y="154" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583851153677">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -160,10 +158,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="403" height="466" key="DebuggerActiveHint/0.0.1280.689@0.0.1280.689" timestamp="1584807523717" />
-    <state x="325" y="93" key="FileChooserDialogImpl" timestamp="1585141543905">
+    <state x="325" y="93" key="FileChooserDialogImpl" timestamp="1585295657981">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="325" y="93" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1585141543905" />
+    <state x="325" y="93" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1585295657981" />
     <state width="629" height="90" key="GridCell.Tab.0.bottom" timestamp="1584807546122">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -212,14 +210,14 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="629" height="90" key="GridCell.Tab.2.right/0.0.1280.689@0.0.1280.689" timestamp="1584807546122" />
-    <state x="144" y="0" key="SettingsEditor" timestamp="1585141547845">
+    <state x="144" y="0" key="SettingsEditor" timestamp="1585295664078">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="144" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1585141547845" />
-    <state x="337" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1585141445412">
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1585295664078" />
+    <state x="337" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1585221511637">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="337" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1585141445412" />
+    <state x="337" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1585221511637" />
     <state x="469" y="183" width="672" height="678" key="search.everywhere.popup" timestamp="1583218823059">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

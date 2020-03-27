@@ -1,5 +1,5 @@
 $(function () {
-    jQuery("#fileUpload").change(function (e) {
+    jQuery("#fileUpload").change(function () {
         let imgBox = jQuery("#imgBox");
         let file = document.getElementById("fileUpload").files[0];
         let extension = file.name.split(".")[file.name.split(".").length - 1].toLowerCase();
@@ -9,7 +9,7 @@ $(function () {
         }
         let fileReader = new FileReader();
         fileReader.readAsDataURL(file);
-        jQuery(fileReader).load(function () {
+        jQuery(fileReader).on('load', function () {
             imgBox.empty();
             let img = document.createElement("img");
             jQuery(img).attr({
@@ -20,7 +20,7 @@ $(function () {
             img.onload = function () {
                 imageAdjust(img);
             }
-        })
+        });
     })
 });
 
