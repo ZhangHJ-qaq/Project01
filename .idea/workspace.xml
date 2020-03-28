@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b060a843-c6b1-438e-9bc6-58ec56afacb5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/login_reigister_Css.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/login_reigister_Css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/browser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/browser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imageDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/imageDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myPhoto.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/myPhoto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myfavor.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/myfavor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/upload.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -137,6 +145,8 @@
       <workItem from="1585301230242" duration="5000" />
       <workItem from="1585393632399" duration="247000" />
       <workItem from="1585394171590" duration="126000" />
+      <workItem from="1585404233946" duration="9000" />
+      <workItem from="1585409004280" duration="1498000" />
     </task>
     <servers />
   </component>
@@ -216,10 +226,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1585295664078" />
-    <state x="337" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1585296199468">
+    <state x="337" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1585404233784">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="337" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1585296199468" />
+    <state x="337" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1585404233784" />
     <state x="469" y="183" width="672" height="678" key="search.everywhere.popup" timestamp="1583218823059">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
