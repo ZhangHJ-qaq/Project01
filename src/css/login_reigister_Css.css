@@ -3,6 +3,7 @@
 .card{
     flex-basis: 60%;
     margin: 10%;
+    max-width: 600px;
 }
 .card-title{
     padding: 10px;
