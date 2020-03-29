@@ -211,6 +211,12 @@ textarea{
     border-radius: 10px;
 }
 
+img.display{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
 /*body{
     opacity: 0;
 }*/

@@ -1,8 +1,13 @@
 window.onload = function () {
     let images = jQuery(".display");
     images.each(function () {
-        let width = this.width;
-        let height = this.height;
+        realImage=new Image();
+        realImage.src=this.src;
+        let width=realImage.width;
+        let height=realImage.height;
+        $(this).css({
+            objectFit:"initial"
+        });
         let k = null;//k是比例系数
         if (width < height) {//此时，图片是“瘦的”
             k = 150 / height;
