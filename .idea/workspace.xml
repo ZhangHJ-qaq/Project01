@@ -5,8 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/browser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/browser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/universal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/universal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/imageDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/imageDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/jsForDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/jsForDropdown.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/myPhoto.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/myPhoto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/myfavor.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/myfavor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/register.html" afterDir="false" />
@@ -147,6 +149,7 @@
       <workItem from="1585394171590" duration="126000" />
       <workItem from="1585404233946" duration="9000" />
       <workItem from="1585409004280" duration="1498000" />
+      <workItem from="1585464062606" duration="3430000" />
     </task>
     <servers />
   </component>
@@ -230,9 +233,9 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="337" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1585404233784" />
-    <state x="469" y="183" width="672" height="678" key="search.everywhere.popup" timestamp="1583218823059">
+    <state x="469" y="183" width="672" height="678" key="search.everywhere.popup" timestamp="1585464653083">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="469" y="183" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1583218823058" />
+    <state x="469" y="183" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1585464653083" />
   </component>
 </project>

@@ -7,18 +7,20 @@
     <link rel="stylesheet" href="css/universal.css">
     <link rel="stylesheet" href="css/login_reigister_Css.css">
     <script src="js/easterEgg.js"></script>
+    <script src="js/pageFlipEffect.js"></script>
+
 
 </head>
 <body>
 <div class="container">
 
-<!--    注册界面的主题-->
+    <!--    注册界面的主题-->
     <main class="card">
         <div class="card-title">Register Here</div>
         <div class="card-body">
 
-<!--            用于填写注册信息的表单-->
-            <form method="post">
+            <!--            用于填写注册信息的表单-->
+            <form method="post" action="../index.html">
                 <label for="userName">Username:</label>
                 <input type="text" name="userName" id="userName">
                 <label for="email">E-mail:</label>
@@ -27,7 +29,7 @@
                 <input type="password" name="password" id="password">
                 <label for="passwordConfirm">Confirm your password:</label>
                 <input type="password" name="passwordConfirm" id="passwordConfirm">
-                <a class="btn-success btn" href="../index.html">Sign up</a>
+                <button class="btn-success btn">Sign up</button>
             </form>
         </div>
     </main>

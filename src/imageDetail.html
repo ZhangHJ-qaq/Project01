@@ -8,6 +8,7 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/jsForDropdown.js"></script>
     <script src="js/easterEgg.js"></script>
+    <script src="js/pageFlipEffect.js"></script>
 
 </head>
 <body>
@@ -15,21 +16,20 @@
 <!--容器-->
 <div class="container">
     <header id="#header" style="position: relative">
-        <div id="home" class="headerOption"><a href="home.html">Home</a></div>
-        <div id="browse" class="headerOption"><a href="browser.html">Browse</a></div>
-        <div id="search" class="headerOption"><a href="search.html">Search</a></div>
+        <div id="home" class="headerOption"><a href="home.html" class="pageFlip">Home</a></div>
+        <div id="browse" class="headerOption"><a href="browser.html" class="pageFlip">Browse</a></div>
+        <div id="search" class="headerOption"><a href="search.html" class="pageFlip">Search</a></div>
         <div id="blank"></div>
         <div id="personalCenter" class="headerOption">
             MyAccount
             <div class="hide" id="dropdownMenu">
-                <div class="dropdownItem"><a href="upload.html"><img src="../img/icons/up_loads.jpg" alt="" class="icon">Upload</a></div>
-                <div class="dropdownItem"><a href="myPhoto.html"><img src="../img/icons/my_photos.jpg" alt="" class="icon">My photos</a></div>
-                <div class="dropdownItem"><a href="myfavor.html"><img src="../img/icons/my_favourites.jpg" alt="" class="icon">My favorites</a></div>
-                <div class="dropdownItem"><a href="../index.html"><img src="../img/icons/login_register.jpg" alt="" class="icon">Login/Register</a></div>
+                <div class="dropdownItem"><a href="upload.html" class="pageFlip"><img src="../img/icons/up_loads.jpg" alt="" class="icon">Upload</a></div>
+                <div class="dropdownItem"><a href="myPhoto.html" class="pageFlip"><img src="../img/icons/my_photos.jpg" alt="" class="icon">My photos</a></div>
+                <div class="dropdownItem"><a href="myfavor.html" class="pageFlip"><img src="../img/icons/my_favourites.jpg" alt="" class="icon">My favorites</a></div>
+                <div class="dropdownItem"><a href="../index.html" class="pageFlip"><img src="../img/icons/login_register.jpg" alt="" class="icon">Login/Register</a></div>
             </div>
         </div>
     </header>
-
 <!--    主体部分，显示详细信息的卡片-->
     <main class="card">
         <div class="card-title">Details</div>

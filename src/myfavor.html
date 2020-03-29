@@ -10,50 +10,58 @@
     <script src="js/jsForDropdown.js"></script>
     <script src="js/adjustAllImages.js"></script>
     <script src="js/easterEgg.js"></script>
+    <script src="js/pageFlipEffect.js"></script>
+
 
 </head>
 <body>
 <div class="container">
     <header id="#header" style="position: relative">
-        <div id="home" class="headerOption"><a href="home.html">Home</a></div>
-        <div id="browse" class="headerOption"><a href="browser.html">Browse</a></div>
-        <div id="search" class="headerOption"><a href="search.html">Search</a></div>
+        <div id="home" class="headerOption"><a href="home.html" class="pageFlip">Home</a></div>
+        <div id="browse" class="headerOption"><a href="browser.html" class="pageFlip">Browse</a></div>
+        <div id="search" class="headerOption"><a href="search.html" class="pageFlip">Search</a></div>
         <div id="blank"></div>
         <div id="personalCenter" class="headerOption">
             MyAccount
             <div class="hide" id="dropdownMenu">
-                <div class="dropdownItem"><a href="upload.html"><img src="../img/icons/up_loads.jpg" alt="" class="icon">Upload</a></div>
-                <div class="dropdownItem"><a href="myPhoto.html"><img src="../img/icons/my_photos.jpg" alt="" class="icon">My photos</a></div>
-                <div class="dropdownItem"><a href="myfavor.html"><img src="../img/icons/my_favourites.jpg" alt="" class="icon">My favorites</a></div>
-                <div class="dropdownItem"><a href="../index.html"><img src="../img/icons/login_register.jpg" alt="" class="icon">Login/Register</a></div>
+                <div class="dropdownItem"><a href="upload.html" class="pageFlip"><img src="../img/icons/up_loads.jpg"
+                                                                                      alt="" class="icon">Upload</a>
+                </div>
+                <div class="dropdownItem"><a href="myPhoto.html" class="pageFlip"><img src="../img/icons/my_photos.jpg"
+                                                                                       alt="" class="icon">My photos</a>
+                </div>
+                <div class="dropdownItem"><a href="myfavor.html" class="pageFlip"><img
+                        src="../img/icons/my_favourites.jpg" alt="" class="icon">My favorites</a></div>
+                <div class="dropdownItem"><a href="../index.html" class="pageFlip"><img
+                        src="../img/icons/login_register.jpg" alt="" class="icon">Login/Register</a></div>
             </div>
         </div>
     </header>
 
-<!--    主体部分-->
+    <!--    主体部分-->
     <main class="card">
         <div class="card-title">My Favourites</div>
         <div class="card-body">
             <div class="imageCard">
-                <a href="imageDetail.html"><img src="../img/img_tiny/1.jpg" class="display"></a>
+                <a href="imageDetail.html" class="pageFlip"><img src="../img/img_tiny/1.jpg" class="display"></a>
                 <div class="imageTitle">Title</div>
                 <div class="imageDescription">Description of image</div>
                 <button class="btn btn-warning" onclick="alert('呱！')">Delete</button>
             </div>
             <div class="imageCard">
-                <a href="imageDetail.html"><img src="../img/img_tiny/2.jpg" class="display"></a>
+                <a href="imageDetail.html" class="pageFlip"><img src="../img/img_tiny/2.jpg" class="display"></a>
                 <div class="imageTitle">Title</div>
                 <div class="imageDescription">Description of image</div>
                 <button class="btn btn-warning" onclick="alert('呱！')">Delete</button>
             </div>
             <div class="imageCard">
-                <a href="imageDetail.html"><img src="../img/img_tiny/3.jpg" class="display"></a>
+                <a href="imageDetail.html" class="pageFlip"><img src="../img/img_tiny/3.jpg" class="display"></a>
                 <div class="imageTitle">Title</div>
                 <div class="imageDescription">Description of image</div>
                 <button class="btn btn-warning" onclick="alert('呱！')">Delete</button>
             </div>
 
-<!--            分页显示-->
+            <!--            分页显示-->
             <div class="pagination">
                 <div><<</div>
                 <div>1</div>
