@@ -37,11 +37,12 @@ header>#home,header>#browse,header>#search{
     text-align: center;
 }
 header>#personalCenter{
-    flex-basis: 10%;
+    flex-basis: 24%;
     text-align: right;
 }
 header>#blank{
-    flex-grow: 1;
+    flex-basis: 40%;
+
 }
 header a{
     color: white;
@@ -58,8 +59,7 @@ header a:hover{
     color: white;
     position: absolute;
     right: 0;
-    text-align: left;
-    font-size: 63%;
+    text-align: center;
 }
 
 .dropdownItem:hover{
