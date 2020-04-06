@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b060a843-c6b1-438e-9bc6-58ec56afacb5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/universal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/universal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/adjustAllImages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/adjustAllImages.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +143,7 @@
       <workItem from="1585467818339" duration="321000" />
       <workItem from="1585468689737" duration="591000" />
       <workItem from="1585469966716" duration="7000" />
+      <workItem from="1586201922676" duration="41000" />
     </task>
     <servers />
   </component>
@@ -224,10 +223,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1585295664078" />
-    <state x="337" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1585469966774">
+    <state x="337" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1586201928307">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="337" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1585469966774" />
+    <state x="337" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1586201928307" />
     <state x="469" y="183" width="672" height="678" key="search.everywhere.popup" timestamp="1585464653083">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
