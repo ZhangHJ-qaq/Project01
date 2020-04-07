@@ -1,7 +1,7 @@
 window.onload = function () {
     let images = jQuery(".display");
     images.each(function () {
-        realImage=new Image();
+        let realImage=new Image();
         realImage.src=this.src;
         let width=realImage.width;
         let height=realImage.height;
